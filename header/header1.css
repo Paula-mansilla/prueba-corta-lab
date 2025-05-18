@@ -1,0 +1,26 @@
+.header1 {
+  width: 1440px;
+  height: 42px;
+  background-color: #f2f2f2;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+  
+ 
+}
+
+.izquierda{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  margin-left: 15rem;
+  color: gray;
+
+}
+ .derecha{
+  margin-right: 4rem;
+  display: flex;
+  gap: 90px;
+}

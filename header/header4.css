@@ -1,0 +1,93 @@
+.rectangulo1{
+    width: 1201px;
+    height: 316px;
+    top: 220px;
+    left: 120px;
+    border-radius: 16px;
+    align-items: center;
+    margin-top: 3rem;
+    
+    background-color:rgb(23, 23, 63);
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+ }
+   
+ .titulo1{
+   width: 474px;
+   height: 30px;
+   margin-left: 10rem;
+   margin-top: 50px;
+   font-size: 23px;
+   color: azure;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+   
+   
+ }
+ .titulo2{
+    width: 574px;
+    height: 56px;
+    font-size: 45px;
+    color:azure;
+    margin-left:10rem ;
+    margin-top: 20px;
+    
+ }
+
+ .titulo3{
+    width: 202px;
+    height: 30px;
+    font-size: 22px ;
+    color: azure;
+    margin-left:10rem ;
+    margin-top: 2rem;
+
+ }
+ .puntos{
+    width: 114px;
+    height: 8px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 10rem;
+    
+    
+ }
+ 
+ .reloj{
+    width: 268px;
+    height: 270px;
+    position: absolute;
+    margin-left: 815px;
+    display: flex;
+    margin-top: -270px;
+   
+}
+
+.circulos{
+    width: 509px;
+    height: 316px;
+    display: flex;
+    margin-left: 694px;
+    margin-top: -295px;
+}
+.flechita1{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    margin-left: -50px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.flechita2{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    margin-left: 1150px;
+    margin-top: -217px;
+    position: absolute;
+
+}
+ 
+
