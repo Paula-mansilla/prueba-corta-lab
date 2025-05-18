@@ -1,0 +1,64 @@
+.subtitulo3 {
+    border-bottom: 1px solid #EDEDED;
+    width: 1250px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .texto-izquierda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .t1 {
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin-left: 2rem;
+  }
+  
+  .smart {
+    color: #008ECC;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .view1 {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  
+  .views {
+    width: 82px;
+    height: 18px;
+    
+  }
+
+  .telefonos {
+    display: flex;
+    gap: 20px;
+    margin: 40px 120px;
+    
+  }
+  
+  .telefonos img {
+    width: 227px;
+    height: 295px;
+    
+    }
+ 
+  .telefono2 img{
+    width: 227px;
+    height: 300px;
+   
+
+  }
+  
+  
