@@ -1,0 +1,83 @@
+.subtitulo6{
+    border-bottom: 1px solid #EDEDED;
+    width: 1250px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .texto4-izquierda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .t4{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+   
+  }
+  .comida{
+    color: #008ECC;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .linea-texto4{
+    width: 281px;
+    display: flex;
+    border-bottom: 3px solid #008ECC;
+    
+  }
+  
+  .view4{
+    display: flex;
+    align-items: center;
+  }
+  
+  .views4{
+    width: 115px;
+    height: 25px;
+  }
+
+  .frutas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .fruta{
+    width: 187px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .fruta img {
+    width: 187px;
+    height: 187px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .fruta .titulo {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    
+  }
+  
+  .fruta .oferta {
+    font-size: 13px;
+    color: #555;
+    margin-top: 3px;
+  }
+  
