@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .texto3-izquierda {
@@ -66,17 +67,23 @@
     width: 355px;
     margin-top: 45px;
   }
-  
-  .puntos-navegacion {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  
-  .puntos-navegacion img {
-    height: 10px;
-  }
-  
 
+/* Puntos */
+.puntos-navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
 
-  
+.punto {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+}
+.punto.activo {
+  width: 16px;
+  border-radius: 6px;
+  background: #00b6ff;
+}

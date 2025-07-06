@@ -36,29 +36,99 @@
   
   
   .views {
-    width: 82px;
-    height: 18px;
+    width: 100px;
+    height: 100px;
     
   }
+.smartphones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 20px;
+}
 
-  .telefonos {
-    display: flex;
-    gap: 20px;
-    margin: 40px 120px;
-    
-  }
-  
-  .telefonos img {
-    width: 227px;
-    height: 295px;
-    
-    }
- 
-  .telefono2 img{
-    width: 227px;
-    height: 300px;
-   
+/* Contenedor de cada tarjeta */
+.sp1, .sp2, .sp3, .sp4, .sp5 {
+  width: 227px;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  }
+/* Cuerpo de la tarjeta */
+.tl1, .tl2, .tl3, .tl4, .tl5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen del fondo decorativo */
+.m1, .m2, .m3, .m4, .m5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Imagen de "56% OFF" */
+.of1, .of2, .of3, .of4, .of5 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 11px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+/* Imagen del teléfono */
+.ig1, .ig2, .ig3, .ig4, .ig5 {
+  width: 100px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de los textos */
+.ct1, .ct2, .ct3, .ct4, .ct5 {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px 5px;
+}
+
+/* Nombre del producto */
+.gx1n, .gx2n, .gx3n, .gx4n, .gx5n {
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+/* Precio normal tachado */
+.gx1n span, .gx2n span, .gx3n span, .gx4n span, .gx5n span {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+/* Ahorro */
+.gx1, .gx2, .gx3, .gx4, .gx5 {
+  font-size: 14px;
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+
+
   
